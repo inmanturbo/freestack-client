@@ -22,4 +22,11 @@ class FreestackClientServiceProvider extends PackageServiceProvider
             ->hasMigration('create_freestack_client_table')
             ->hasCommand(FreestackClientCommand::class);
     }
+
+    public function packageBooted()
+    {
+        $this->publishes([
+            __DIR__.'/../resources/app-views' => resource_path('views'),
+        ], 'app-views');
+    }
 }
