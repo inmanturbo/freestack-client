@@ -3,8 +3,8 @@
 namespace Inmanturbo\FreestackClient\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Inmanturbo\FreestackClient\FreestackClientServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

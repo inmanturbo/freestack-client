@@ -2,9 +2,9 @@
 
 namespace Inmanturbo\FreestackClient;
 
+use Inmanturbo\FreestackClient\Commands\FreestackClientCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Inmanturbo\FreestackClient\Commands\FreestackClientCommand;
 
 class FreestackClientServiceProvider extends PackageServiceProvider
 {
