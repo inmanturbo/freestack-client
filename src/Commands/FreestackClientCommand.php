@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Inmanturbo\FreestackClient\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FreestackClientCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'freestack-client';
 
     public $description = 'My command';
 
